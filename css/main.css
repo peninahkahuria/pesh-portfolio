@@ -21,18 +21,38 @@ body{
     background-color:#696969;
 }   
 
-.item{
-    border:2px solid #e6dcA4;
-    border-radius:30px;
-    color:black;
-    border-style:inset;
-    list-style:none;
-    text-align:center;
-    padding:20px 20px;
-    margin:6px;
-    font-size:25px;
-    box-shadow:5px 2px 3px black;
-}         
+
+.navigation-bar ul li a{
+ text-decoration:none;
+
+}
+
+.nav ul{
+  float: right;
+  list-style-type: none;
+  margin: 40px;
+}
+
+.nav a:hover{
+    color:#008080;
+    background: #02b8dd;
+    filter:brightness(50%);
+    text-shadow: -1px -1px -1px darkgray;
+  }
+
+
+.nav ul li{
+  display: inline-block;
+  font-family:'opensans-regular',sans-serif;
+}
+
+.nav ul li a{
+  padding: 8px 25px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .nav ul{
   float: right;
    color:white;
